@@ -1,7 +1,7 @@
 # Get-React.js
 ## GET IT과 함께 React.js GET하기!
 
-GET IT의 React.js 교육입니다! 
+### GET IT의 React.js 교육입니다!😊 
 
 단시간에 효율적인 성장과 즐거운 배움을 모토로 달려나갈 준비가 되셨나요?
 그럼 지금부터 시작합시다! Get **React.js**👊
