@@ -1,4 +1,4 @@
-# GET IT 6기 SW교육 React.js
+# GET IT SW교육 React.js
 ## 1차시_개발환경 세팅
 > 기간 : 24.09.26~24.09.27
 
