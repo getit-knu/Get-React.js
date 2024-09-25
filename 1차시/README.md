@@ -3,7 +3,7 @@
 > 기간 : 24.09.26~24.09.27
 
 ### 🗂️1차시 자료🗂️
-[React.js 1차시 자료]()
+[React.js 1차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/1%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_1%EC%B0%A8%EC%8B%9C.pdf)
 
 👉자료를 다운 받은 후 수강해주세요!
 
