@@ -11,3 +11,8 @@
 |차시|제목|기간|자료|
 |:---:|:---:|:---:|:---:|
 |1차시|개발환경 세팅|24.09.26 ~ 24.09.27 (23:59)|[1차시 자료](https://github.com/getit-knu/Get-React.js/tree/main/1%EC%B0%A8%EC%8B%9C)|
+
+
+### 🔥과제 제출하는 곳 
+👉 6기 노션 > SW과제제출 > React.js > 해당 차시 > 본인이름 > 과제제출란
+[6기 SW 과제제출 링크](https://www.notion.so/SW-8502eeef321b43e2ad13ece0f626be33)
