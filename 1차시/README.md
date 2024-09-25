@@ -3,8 +3,6 @@
 > 기간 : 24.09.26~24.09.27
 
 
-[![Video Label](http://img.youtube.com/vi/PjMbUsp3zPo?si=JhTHytb37Xzur3Eg/0.jpg)](https://youtu.be/PjMbUsp3zPo?si=JhTHytb37Xzur3Eg)
-
 ### 🚀목차🚀
 1. Node.js 설치하기
 2. react 애플리케이션 생성 및 실행
