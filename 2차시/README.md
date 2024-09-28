@@ -63,11 +63,14 @@
 : 리액트 앱을 구성하는 가장 작은 블록들
 
 ##### 2. 리액트 엘리먼트, DOM 엘리먼트
-리액트 엘리먼트
+**1) 리액트 엘리먼트**
 ```react.js
 const element = <h1>Hello, world</h1>;
 ```
-
+**2) DOM 엘리먼트**
+```DOM
+<h1>Hello, world</h1>
+```
 
 ##### 2. React.js 실행
 1. VScode 열기
