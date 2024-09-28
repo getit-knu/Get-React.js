@@ -3,7 +3,7 @@
 > 기간 : 24.09.28~24.10.01
 
 ### 🗂️2차시 자료🗂️
-[React.js 2차시 자료]
+[React.js 2차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/2%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%202%EC%B0%A8%EC%8B%9C.pdf)
 
 👉자료를 다운 받은 후 수강해주세요!
 
@@ -15,8 +15,8 @@
 ---
 
 ### 🚀목차🚀
-1. Node.js 설치하기
-2. react 애플리케이션 생성 및 실행
+1. React.js 소개
+2. 엘리먼트 렌더링
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-#### 01. 🛠️Node.js 설치하기
+#### 01. React.js 소개
 ##### 1) https://nodejs.org/en/download 에서 각자 개인의 컴퓨터 운영체제와 아키텍처에 맞는 Node.js를 설치합니다.
 ##### 2) 1번 부분에서는 LTS라고 적힌 버전을 선택해 줍니다.
 ##### 3) 2번 부분에서는 여러분들의 컴퓨터의 운영체제를 선택해줍니다.
