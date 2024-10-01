@@ -39,11 +39,11 @@
 ##### 🔗함수 컴포넌트, 클래스 컴포넌트
 ##### 함수 컴포넌트
 : 함수 형태로 작성된 컴포넌트
-'''javascript
+```javascript
 function Welcome(props){
   return <h1>Hello, {props.name}</h1>;
 }
-'''
+```
 
 - 도서관처럼 정해진 기준에 따라 정리되어 있음.
   
