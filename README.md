@@ -13,7 +13,7 @@
 |:---:|:---:|:---:|:---:|
 |1차시|개발환경 세팅|24.09.26 ~ 24.09.27 (23:59)|[1차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/1%EC%B0%A8%EC%8B%9C)|
 |2차시|React, 엘리먼트|24.09.28 ~ 24.10.01 (23:59)|[2차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/2%EC%B0%A8%EC%8B%9C)|
-|2차시|React, 엘리먼트|24.09.28 ~ 24.10.01 (23:59)|[3차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/3%EC%B0%A8%EC%8B%9C)|
+|3차시|컴포넌트, props|24.10.02 ~ 24.10.05 (23:59)|[3차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/3%EC%B0%A8%EC%8B%9C)|
 
 <br/>
 
