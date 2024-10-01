@@ -45,7 +45,15 @@ function Welcome(props){
 }
 ```
 
-- 도서관처럼 정해진 기준에 따라 정리되어 있음.
+##### 클래스 컴포넌트
+: (자바스크립트) 클래스 형태로 작성된 컴포넌트
+```javascript
+class Welcome extends React.Component{
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
   
 ---
 
