@@ -1,22 +1,23 @@
 # GET IT SW교육 React.js
-## 3차시_React,엘리먼트
-> 기간 : 24.09.28~24.10.01
+## 3차시_컴포넌트,props
+> 기간 : 24.10.02~24.10.05
 
 ### 🗂️3차시 자료🗂️
-[React.js 3차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/3%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%202%EC%B0%A8%EC%8B%9C.pdf)
+[React.js 3차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/3%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%203%EC%B0%A8%EC%8B%9C.pdf)
 
 👉자료를 다운 받은 후 수강해주세요!
 
-### 🎞️2차시 강의🎞️
-[![Video Label](http://img.youtube.com/vi/gluYd0cOl9E/0.jpg)](https://youtu.be/gluYd0cOl9E)
+### 🎞️3차시 강의🎞️
+[![Video Label](http://img.youtube.com/vi/YTooyIVNPYc/0.jpg)](https://youtu.be/YTooyIVNPYc)
 
 👉위 이미지를 누르면 강의를 들을 수 있습니다.
 
 ---
 
 ### 🚀목차🚀
-1. React.js 소개
-2. 엘리먼트 렌더링
+1. 컴포넌트란?
+2. props란?
+3. 스타일링
 
 ---
 
