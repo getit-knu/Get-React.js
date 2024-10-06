@@ -94,11 +94,12 @@
 - `useState` : 컴포넌트에서 상태를 관리하기 위한
 - `useEffect` : 컴포넌트의 생명주기 중 특정 시점에 코드를 실행하기 위한
 
+---
 
 #### 📌useState
 **: state를 관리하기 위한 훅**
 - 예시
-```
+```react.js
 const [변수명, set변수명] = useState(초깃값);
 ```
 - useState()안에 값을 넣어서 state의 초깃값을 설정
@@ -109,13 +110,28 @@ const [변수명, set변수명] = useState(초깃값);
 **: 사이드 이펙트를 수행하기 위한 훅**
 - 컴포넌트에서 제공하는 생명주기 함수인 `componentDidMount()`,`componentDidUpdate()`,`componentWillUnmount()`의 기능을 하나로 통합해서 제공
 - 예시
-```
+```react.js
 useEffect(이펙트 함수, 의존성 배열);
 ```
 - 배열에 있는 변수 중에 하나라도 변경되면 이펙트 함수 실행
 
+#### 1. 의존성 배열이 빈 배열([])인 경우
+: 마운트, 언마운트 시에만 이펙트 함수 실행
+```react.js
+import React, { useEffect, useState } from 'react';
 
+function MyComponent() {
+  useEffect(() => {
+    console.log('컴포넌트가 마운트되었습니다.');
 
+    return () => {
+      console.log('컴포넌트가 언마운트되었습니다.');
+    };
+  }, []); // 마운트 시 한 번 실행, 언마운트 시 클린업 실행
+
+  return <div>My Component</div>;
+}
+```
 
 
 ### 📢과제
