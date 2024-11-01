@@ -112,15 +112,15 @@ function App() {
 
 export default App;
 ```
->
-- onClick 이벤트가 발생하면, handleClick 함수 실행
-- 이때 handleClick 함수는 e라는 argument를 받음.
-  - 이 e는 '발생한 이벤트'에 대한 정보를 담은 객체
-  - e : 이벤트 객체
-- e.target은 이 이벤트 요소를 가리킴
-- e.target.innerText는 이벤트 요소 안에 있는 텍스트를 말함
-  - 즉, 클릭된 버튼의 텍스트
-- 따라서 이 코드는 클릭 이벤트가 발생했을 때 그 클릭된 버튼의 텍스트를 알림창에 띄우는 코드
+
+> - onClick 이벤트가 발생하면, handleClick 함수 실행
+>>  - 이때 handleClick 함수는 e라는 argument를 받음.
+>>  - 이 e는 '발생한 이벤트'에 대한 정보를 담은 객체
+>>  - e : 이벤트 객체
+> - e.target은 이 이벤트 요소를 가리킴
+> - e.target.innerText는 이벤트 요소 안에 있는 텍스트를 말함
+>>  - 즉, 클릭된 버튼의 텍스트
+>- 따라서 이 코드는 클릭 이벤트가 발생했을 때 그 클릭된 버튼의 텍스트를 알림창에 띄우는 코드
 
 
 
