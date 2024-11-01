@@ -15,6 +15,8 @@
 |2차시|React, 엘리먼트|24.09.28 ~ 24.10.01 23:59|[2차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/2%EC%B0%A8%EC%8B%9C)|
 |3차시|컴포넌트, props|24.10.02 ~ 24.10.05 23:59|[3차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/3%EC%B0%A8%EC%8B%9C)|
 |4차시|state, 생명주기, hook|24.10.06 ~ 24.10.09 23:59|[4차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/4%EC%B0%A8%EC%8B%9C)|
+|5차시|이벤트 핸들러|24.11.01 ~ 24.11.05 23:59|[5차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/5%EC%B0%A8%EC%8B%9C)|
+
 
 <br/>
 
