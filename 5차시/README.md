@@ -3,7 +3,7 @@
 > 기간 : 24.11.01~24.11.05
 
 ### 🗂️5차시 자료🗂️
-[React.js 5차시 자료](
+[React.js 5차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/5%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%205%EC%B0%A8%EC%8B%9C.pdf)
 
 👉자료를 다운 받은 후 수강해주세요!
 
@@ -15,53 +15,114 @@
 ---
 
 ### 🚀목차🚀
-1. state와 생명주기
-2. hook
+1. 이벤트 핸들러
+2. argument 전달
+3. to-do-list 만들기
 
 ---
 
-#### 01. 💫state와 생명주기
-#### 📄state란?
-**: 리액트 컴포넌트의 변경가능한 데이터**
-- state가 변경될 때마다 재렌더링됨
-  > 따라서 필요한 경우가 아니라면 state로 정의하지 말아야 함. <br/>
-  > 쓸데없는 재렌더링으로 성능이 저하될 수 있기 때문.
-- 쉽게 말해서, **변수**이다.
-  > 단, 값이 변했을 때 관련 컴포넌트들이 재렌더링됨.
-- 변경 가능한 데이터를 state를 통해 관리하는 것.
+#### 01. 💫이벤트 핸들러
+#### 📢이벤트란?
+**: 말 그대로, '사건'을 말함**
+- 사용자가 버튼을 클릭하는 것도 하나의 사건
+- 이러한 이벤트가 발생했을 때, 어떤 동작을 하도록 만들 수 있어야 함
+- 그래야 버튼을 눌렀을 때, 다른 페이지로 이동하거나 좋아요 가 늘어가거나 다른 사람을 팔로우할 수 있음
+- 다양한 이벤트를 알고 이것들을 활용할 수 있어야 함
+
   
+#### 🧐이벤트 핸들러
+**: 이벤트가 발생했을 때 실행되는 함수**
+> 예를 들어 버튼에 클릭 이벤트가 발생했을 때 어떤 함수가 실행되도록 만들려면, 그 버튼의 onClick={} 안에 그 함수를 넣으면 됩니다.
+
+```react.js
+function AlertComponent(){
+  const handleClick = () => {
+    alert("Button clicked!");
+  };
+  return <button onClick={hancleClick}>Click me!</button>;
+}
+
+function App() {
+  return <AlertComponet />;
+}
+
+export default App;
+```
+- onClick 이벤트가 발생했을 때, handleClick 함수가 발생
+- 이 handleClick 함수가 바로 이벤트 핸들러
+- onClick 이벤트가 발생했을 때 handleClick 함수가 실행되고, handleClick 함수를 보면 알림창이 출력된다는 것을 알 수 있음
+  - 즉, 버튼을 누르면 알림창이 뜸
+    
+![image](https://github.com/user-attachments/assets/9b534480-4e6b-482b-bf3a-ac2cfd5ab670)
+- 'Click me!' 버튼을 누르면 알림창이 뜨는 걸 볼 수 있습니다.
+
+---
+
+#### 💁일반 함수 vs 화살표 함수
+이벤트 핸들러는 대표적으로 두 가지 방법으로 표현함
+- **일반 함수** : function 키워드 사용
+```react.js
+function regularFumction(x, y) {
+  return x+y;
+}
+```
+- **화살표 함수** : () => 형식으로 작성 / '=>' 화살표 기호 사용
+```react.js
+const arrowFucntion = (x,y) => x+y;
+```
+
+#### 🔆react vs html
+- html 에서는 click 이벤트를 `onclick`으로 표기
+- react 에서는 click 이벤트를 `onClick`으로 표기
+  - 이러한 표기를 **카멜 표기법** 이라고 함
+  - 첫 글자를 소문자, 그 다음 단어부터는 첫 글자를 대문자로 표기하는 것
+  - ex)camelCase, isCamelCase
+
+
+#### 🗨️이벤트의 종류
+- `onClick` : 클릭 이벤트. 버튼이나 다른 요소기ㅏ 클릭될 때 발생합니다.
+- `onDoubleClick` : 더블클릭 이벤트, 요소가 두 번 연속으로 클릭될 때 발생합니다.
+- `onKeyDown` : 키보드를 눌렀을 때 발생합니다.
+- `onKeyUp` : 키보드를 맬 때 발생합니다.
+- `onChange` : 폼 요소의 값이 변경될 때 발생합니다.
+
+- 이벤트는 종류가 많습니다. 때문에 어떤 이벤트에 대한 처리를 하고 싶다면, 그 이벤트를 검색하면서 직접 찾아보면 좋습니다.
   
-#### 🧐왜 state가 있어야 하나?
-- 일반적인 변수의 경우, 그 값이 변해도 화면에는 반영되지 않음.
-- 하지만 **값이 변경될 때 화면이 바뀌어야 하는 경우**가 있음.
-- 때문에 그러한 변수들은 특별히 state라는 객체를 통해 관리하는 것
-
 ---
 
-#### 💁props vs state 차이점
-- `props` : 함수의 매개변수처럼 컴포넌트에 전달됨.
-- `state` : 함수 내에 정의된 변수처럼 관리됨.
+#### 02. 🌟argument 전달
+#### 이벤트 핸들러에 argument 전달하기
+- **이벤트 핸들러** : 어떤 이벤트가 발생했을 때 실행되는 함수
+- 이 함수에 argument를 전달해야 하는 경우가 발생하기도 합니다.
+```react.js
+function AlertComponent(){
+  const handleClick = (e) => {
+    alert(e.target.innerText);
+  };
+  return (
+    <div>
+      <button onClick={handleClick}>Click me!</button>
+    </div>
+  );
+}
+
+function App() {
+  return <AlertComponet />;
+}
+
+export default App;
+```
+>
+- onClick 이벤트가 발생하면, handleClick 함수 실행
+- 이때 handleClick 함수는 e라는 argument를 받음.
+  - 이 e는 '발생한 이벤트'에 대한 정보를 담은 객체
+  - e : 이벤트 객체
+- e.target은 이 이벤트 요소를 가리킴
+- e.target.innerText는 이벤트 요소 안에 있는 텍스트를 말함
+  - 즉, 클릭된 버튼의 텍스트
+- 따라서 이 코드는 클릭 이벤트가 발생했을 때 그 클릭된 버튼의 텍스트를 알림창에 띄우는 코드
 
 
-#### 🔆state를 변경하고 싶다면?
-- state를 변경하고 싶다면 `setState()`를 사용해야 함.
-> 클래스 컴포넌트의 경우, constructor(생성자)에서 state를 정의하고 setState를 통해 변경.
-- state는 직접적인 변경이 불가능하기 때문이다.
-
-
-#### 🗨️setState
-**: state를 변경하는 메서드**
-- 함수 컴포넌트에서는 `useState`를 많이 사용함
-- 비동기적으로 동작한다.
-
----
-
-#### ♾️동기, 비동기
-#### 동기(Synchronous)
-- 작업이 순차적으로 진행되는 것.(이전 작업 끝나야 다음 작업)
-- 코드 흐름이 직관적이고, 디버깅하기 쉬움.
-- 블로킹(작업 중단)이 발생함.
-- 차례대로 진행되므로 성능 저하가 나타날 수 있음.
 
 #### 비동기(Asynchronous)
 - 여러 작업이 동시에 진행되는 것.(순서 보장X)
