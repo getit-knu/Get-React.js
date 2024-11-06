@@ -1,14 +1,14 @@
 # GET IT SW교육 React.js
-## 5차시_이벤트 핸들러
-> 기간 : 24.11.01~24.11.05
+## 6차시_이벤트 핸들러
+> 기간 : 24.11.06~24.11.10
 
-### 🗂️5차시 자료🗂️
-[React.js 5차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/5%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%205%EC%B0%A8%EC%8B%9C.pdf)
+### 🗂️6차시 자료🗂️
+[React.js 6차시 자료](https://github.com/getit-knu/Get-React.js/blob/main/6%EC%B0%A8%EC%8B%9C/GETIT%20SW%20%EA%B5%90%EC%9C%A1%20react%20_%206%EC%B0%A8%EC%8B%9C.pdf)
 
 👉자료를 다운 받은 후 수강해주세요!
 
 ### 🎞️5차시 강의🎞️
-[![Video Label](http://img.youtube.com/vi/mWd71gf4UlE/0.jpg)](https://youtu.be/mWd71gf4UlE)
+[![Video Label](http://img.youtube.com/vi/mcuyV2qkzNI/0.jpg)](https://youtu.be/mcuyV2qkzNI)
 
 👉위 이미지를 누르면 강의를 들을 수 있습니다.
 
