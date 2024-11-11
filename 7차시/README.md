@@ -56,12 +56,12 @@
 <br/>
 
 #### ⬇️ 게시물을 저장하는 방법
-- localStorage 사용하기
+- `localStorage` 사용하기
   - 웹 브라우저에서 제공하는 간단한 키-값 쌍의 데이터 저장소
-- 데이터 저장 - localStorage.setItem('key', 'value');
-- 데이터 불러오기 - const value = localStorage.getItem('key');
-- 데이터 삭제 - localStorage.removeltem('key");
-- 모든 데이터 삭제 - localStorage.clear();
+- **데이터 저장** - localStorage.setItem('key', 'value');
+- **데이터 불러오기** - const value = localStorage.getItem('key');
+- **데이터 삭제** - localStorage.removeltem('key");
+- **모든 데이터 삭제** - localStorage.clear();
 - localStorage에 정보들을 저장해둔다면, 리액트 애플리케이션을 껐다 켜도 게시물들은 그대로임.
   
 ---
@@ -70,16 +70,16 @@
 #### react-router-dom 설치 및 사용
 - 설치 : npm install react-router-dom --save
 - 사용
-  - BrowserRouter
+  - `BrowserRouter`
     - index.js에서 App 컴포넌트를 감싸도록
     - `index.js` 는 강의 및 강의자료 참고
       
-  - Routes, Route
+  - `Routes, Route`
     - 페이지 바뀌는 건 Main 컴포넌트에서 구현하기로 함
     - Main에서 Routes, Route 불러와서 사용하기
     - `Main.js`는 강의 및 강의자료 참고
       
-  - useNavigate
+  - `useNavigate`
     - 상단 바에 있는 버튼들을 누르면 페이지가 바뀌게 할 것임
     - TopBar 등에서 useNavigate 불러와서 사용하기
     - `TopBar.js`는 강의 및 강의자료 참고
