@@ -18,6 +18,7 @@
 |5차시|이벤트 핸들러|24.11.01 ~ 24.11.05 23:59|[5차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/5%EC%B0%A8%EC%8B%9C)|
 |6차시|조건부 렌더링, 라우팅|24.11.06 ~ 24.11.10 23:59|[6차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/6%EC%B0%A8%EC%8B%9C)|
 |7차시|미니 블로그 만들기|24.11.11 ~ 24.11.13 23:59|[7차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/7%EC%B0%A8%EC%8B%9C)|
+|8차시|(대면)백과 함께 작업하기|24.11.14|[8차시 들으러가기](https://github.com/getit-knu/Get-React.js/tree/main/8%EC%B0%A8%EC%8B%9C)|
 
 
 
